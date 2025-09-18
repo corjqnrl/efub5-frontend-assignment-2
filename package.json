@@ -1,0 +1,28 @@
+{
+  "name": "efub5-frontend-assignment-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EFUB/efub5-frontend-assignment-2.git",
+  "author": "corjqnrl <coqnrl@ewha.ac.kr>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "build:week02": "tsc -p week02",
+    "build:week03": "tsc -p week03",
+    "build:week04": "tsc -p week04",
+    "build:week05": "tsc -p week05",
+    "build:week06": "tsc -p week06",
+    "build:week07": "tsc -p week07",
+    "build:week08": "tsc -p week08",
+    "start:week02": "node week02/dist/index.js",
+    "start:week03": "node week03/dist/index.js",
+    "start:week04": "node week04/dist/index.js",
+    "start:week05": "node week05/dist/index.js",
+    "start:week06": "node week06/dist/index.js",
+    "start:week07": "node week07/dist/index.js",
+    "start:week08": "node week08/dist/index.js"
+  }
+}
